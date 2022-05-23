@@ -1,0 +1,150 @@
+#Secede The Levant
+country_event = {
+	tag = EGY
+	id = 103101
+	title = "EVTNAME103101"
+	desc = "EVTDESC103101"
+	major = yes
+	
+	is_triggered_only = yes
+
+	
+	option = {
+		name = "EVTOPTA103101"
+		set_global_flag = secede_the_Levant
+		any_pop = {
+			consciousness = 2
+			militancy = 1
+		}
+		848 = {
+			secede_province = TUR
+		}
+		847 = {
+			secede_province = TUR
+		}
+		TUR = {
+			inherit = HDJ
+		}
+		any_owned = {
+			limit = {
+				is_core = TUR
+				}
+			secede_province = TUR
+	}
+		EGY_903 = { remove_core = EGY } 
+        	EGY_897 = { remove_core = EGY } 
+        	EGY_915 = { remove_core = EGY } 
+        	EGY_921 = { remove_core = EGY } 
+		EGY_910 = { remove_core = EGY } 
+        	1156 = { remove_core = EGY } 
+        	894 = { remove_core = EGY } 
+        	896 = { remove_core = EGY } #Chania
+        	898 = { remove_core = EGY } #Iraklion
+	}
+}
+#Anexation_of_Egypt
+country_event = {
+
+	id = 103102
+	title = "EVTNAME103102"
+	desc = "EVTDESC103102"
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA103102"
+		set_global_flag = anexation_of_Egypt
+		TUR = {
+			inherit = EGY
+		}
+		TUR = {
+			inherit = HDJ
+		}
+	}
+}
+#egipto thiqq
+country_event = {
+	id = 106000
+	title = "EVTNAME106000"
+	desc = "EVTDESC106000"
+	picture = "colonizationnnn"
+	
+	trigger = {
+		tag = EGY
+		year = 1870
+		NOT = {
+			year = 1871
+				has_global_flag = sudan_is_ours}
+	}
+	option = {
+		name = "EVTOPTA106000"
+		set_global_flag = sudan_is_ours
+			1841 = { secede_province = EGY any_pop = { literacy = -0.99 } life_rating = 5 }	
+			1842 = { secede_province = EGY any_pop = { literacy = -0.99 } life_rating = 5 }
+			1843 = { secede_province = EGY any_pop = { literacy = -0.99 } life_rating = 5 }
+			1844 = { secede_province = EGY any_pop = { literacy = -0.99 } life_rating = 5 }
+			1845 = { secede_province = EGY any_pop = { literacy = -0.99 } life_rating = 5 }
+			1846 = { secede_province = EGY any_pop = { literacy = -0.99 } life_rating = 5 }
+			1847 = { secede_province = EGY any_pop = { literacy = -0.99 } life_rating = 5 }
+			1758 = { secede_province = EGY any_pop = { literacy = -0.99 } life_rating = 15 }
+			2564 = { secede_province = EGY any_pop = { literacy = -0.99 } life_rating = 15 }
+			1838 = { secede_province = EGY any_pop = { literacy = -0.99 } life_rating = 15 }
+			1839 = { secede_province = EGY any_pop = { literacy = -0.99 } life_rating = 15 }
+			1841 = {
+				add_core = THIS
+			}
+			1842 = {
+				add_core = THIS
+			}
+			1843 = {
+				add_core = THIS
+			}
+			1844 = {
+				add_core = THIS
+			}
+			1845 = {
+				add_core = THIS
+			}
+			1846 = {
+				add_core = THIS
+			}
+			1847 = {
+				add_core = THIS
+			}
+			1758 = {
+				add_core = THIS
+			}
+			2564 = {
+				add_core = THIS
+			}
+			1838 = {
+				add_core = THIS
+			}
+			1839 = {
+				add_core = THIS
+			}	
+	}
+}
+#zanzibar thiqq
+country_event = {
+	id = 1060010
+	title = "EVTNAME1060010"
+	desc = "EVTDESC1060010"
+	picture = "colonizationnnn"
+	
+	trigger = {
+		tag = ZAN
+		ZAN = { exists = yes }
+		year = 1870
+		NOT = {
+			year = 1871
+				has_country_flag = kilwa_is_ours}
+	}
+	option = {
+		name = "EVTOPTA106000"
+		set_country_flag = kilwa_is_ours
+			2033 = { secede_province = ZAN any_pop = { literacy = -0.99 } life_rating = 5 }	
+			2039 = { secede_province = ZAN any_pop = { literacy = -0.99 } life_rating = 5 }	
+	}
+}

@@ -1,0 +1,85 @@
+political_decisions = {
+	form_benelux = {
+		picture = low_countries
+		potential = {
+			OR = {
+				tag = LUX
+				tag = BEL
+				tag = NET
+			}
+			NOT = {
+				exists = BNX
+			}
+			nationalism_n_imperialism = 1
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			war = no
+			BEL = {
+				all_core = {
+					OR = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+					}
+				}
+			}
+			NET = {
+				all_core = {
+					OR = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+					}
+				}
+			}
+			LUX = {
+				all_core = {
+					OR = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 15
+			any_country = {
+				limit = {
+					OR = {
+						tag = BEL
+						tag = NET
+						tag = LUX
+ 
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			BEL = { all_core = { add_core = BNX } }	
+			LUX = { all_core = { add_core = BNX } }	
+			NET = { all_core = { add_core = BNX } }				
+			change_tag = BNX
+			add_accepted_culture = wallonian
+
+			add_accepted_culture = dutch
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}

@@ -1,0 +1,104 @@
+political_decisions = {
+	Annexation_of_loango = {
+		picture = african_land
+		potential = {
+			THIS = { capital_scope = { continent = europe }}
+				NOT = { tag = TUR
+				 tag = RUS } 
+			year = 1871
+			exists = LOA
+			LOA = {
+				in_sphere = THIS
+			}
+			NOT = {
+				has_country_flag = anexation_of_loa
+			}
+		}
+		
+		allow = {
+			exists = LOA
+			is_greater_power = yes
+			THIS = { capital_scope = { continent = europe } }
+				NOT = { tag = TUR
+				 tag = RUS } 
+			LOA = {
+				in_sphere = THIS
+			}
+		}
+		
+		effect = {
+			set_country_flag = anexation_of_loat
+			inherit = LOA
+			prestige = 4
+			badboy = 2
+		}
+	}
+	Annexation_of_futa_jallon = {
+		picture = african_land
+		potential = {
+			THIS = { capital_scope = { continent = europe } }
+				NOT = { tag = TUR
+				 tag = RUS } 
+			year = 1871
+			exists = FUT
+			FUT = {
+				in_sphere = THIS
+			}
+			NOT = {
+				has_country_flag = anexation_of_fut
+			}
+		}
+		
+		allow = {
+			exists = FUT
+			is_greater_power = yes
+			THIS = { capital_scope = { continent = europe } }
+				NOT = { tag = TUR
+				 tag = RUS } 
+			FUT = {
+				in_sphere = THIS
+			}
+		}
+		
+		effect = {
+			set_country_flag = anexation_of_fut
+			inherit = FUT
+			prestige = 4
+			badboy = 2
+		}
+	}
+	Annexation_of_ashanti = {
+		picture = african_land
+		potential = {
+			THIS = { capital_scope = { continent = europe } }
+				NOT = { tag = TUR
+				 tag = RUS } 
+			year = 1871
+			exists = ASH
+			ASH = {
+				in_sphere = THIS
+			}
+			NOT = {
+				has_country_flag = anexation_of_ash
+			}
+		}
+		
+		allow = {
+			exists = ASH
+			is_greater_power = yes
+			THIS = { capital_scope = { continent = europe } }
+				NOT = { tag = TUR
+				 tag = RUS } 
+			ASH = {
+				in_sphere = THIS
+			}
+		}
+		
+		effect = {
+			set_country_flag = anexation_of_ash
+			inherit = ASH
+			prestige = 4
+			badboy = 2
+		}
+	}
+}

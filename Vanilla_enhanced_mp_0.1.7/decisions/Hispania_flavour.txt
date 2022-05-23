@@ -1,0 +1,40 @@
+political_decisions = {
+the_hispanic_question = {
+		potential = {
+			tag = HIS }
+		allow = {
+			romanticism = 1
+			prestige = 50
+			year = 1865
+			NOT = { has_country_modifier = monthly_timer duration = 365 }
+					}
+		effect = {
+			add_country_modifier = { name = monthly_timer duration = 600 }
+			any_country = { limit = { AND = { neighbour = THIS OR = {
+						tag = ACN
+						tag = GCO
+						tag = AGE
+						tag = VNZ
+						tag = CLM
+						tag = ECU
+						tag = CHL
+						tag = BOL
+						tag = PEU
+						tag = BIG
+						tag = ARG
+						tag = ACO
+						tag = ERI
+						tag = COR
+						tag = URU
+						tag = PRG
+						tag = SPA
+						tag = MEX
+						tag = NIC
+						tag = UCA
+						tag = ELS
+						tag = COS
+						tag = GUA
+						tag = HON } in_sphere = THIS} } country_event = 117000 }
+		}
+	}
+}	
