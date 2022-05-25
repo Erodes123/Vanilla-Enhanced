@@ -404,7 +404,7 @@ french = {
 		Marselhés Alesenc "de Sant Africa" Castrès "de Puylaurenç" Aushés Gasc "lo Cuq" Pèira
 		Valada Bosc Forneiron Faure Avelan Rove Ramond Andrieu "de Lonzac" "de Aurenja" }
 	}
-	corsican = {
+	galician = {
 		color = {161 143 49}
 		first_names = { Adalbertu Alesiu Ambrosgiu Andria Antone Biasgiu Baltazaru Benghjaminu Bernardu Calistu 
 		Carlu Conradu Cristofanu Danelu Francescu Gasparu Giacumu Ghjaseppu Larenzu Lisandru Martinu Melchioru 
@@ -2097,7 +2097,7 @@ central_african = {
 		}
 	}
 	bantu = {
-		color = {233 134 28}
+		color = {183 134 28}
 		first_names = { Poaty Loembe M'voudoukousala Pratt N'Gangue M'voumbe Mfutila Kivuzi Nteve Kenje
 		}
 
