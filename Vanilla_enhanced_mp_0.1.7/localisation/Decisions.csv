@@ -190,8 +190,6 @@ refute_manifest_destiny_title;Refute Manifest Destiny;;;;Spanish Loc;;;x;
 refute_manifest_destiny_desc;The American claims to our frontier have proven to be little more than empty air and bluster. Those lands belong to Mexico, and no other.;;;;Spanish Loc;;;x;
 Gadsden_Purcharse_title;Gadsden Purcharse;x;
 Gadsden_Purcharse_desc;The Gadsden Purchase is a 29,670-square-mile (76,800 km2) region of present-day southern Arizona and southwestern New Mexico that the United States acquired from Mexico by a treaty in 1856. With it the United States acquiared roughly 30.000 miles of territory from Mexico.;x;
-Claim_louisiana_title;Claim Louisiana!;;;;Reclamar Luisiana!;;;x;
-Claim_louisiana_desc;With the pesky Americans defeated, we now have the opportunity to claim the land that is west Mississippi river;x;
 Claim_centralamerica_title;Claim Centralamerica;x;
 Claim_centralamerica_desc;Centralamerica is a land that once belonged to Mexico. Now that Mexico is the onlt Great Power in the region, they must be protected from Europen interventionism;x;
 accept_mayan_title;Accept Mayan;x;
@@ -245,3 +243,13 @@ EVTNAME91308;$FROMCOUNTRY$ Requests Independence;;;;;;;;;;;;;;;;;;;;;;;x
 EVTDESC91308;We can grant independence to $FROMCOUNTRY$.;;;;;;;;;;;;;;;;;;;;;;;x
 EVTOPTA91308;Let them be free.;;;;;;;;;;;;;;;;;;;;;;;x
 EVTOPTB91308;Don't let them be free.;;;;;;;;;;;;;;;;;;;;;;;x
+claim_oregon_country_title;Claim the Oregon Country!;;;;;;;;;;;;;
+claim_oregon_country_desc;The Oregon Country territory was first explored by spanish explorers, which later discussed the territoryin the Nutka conventions. This is a solid claim for the Mexican state to take it back.;;;;;;;;;;;;;
+claim_luisiana_title;Claim the Luisiana Territory!;;;;;;;;;;;;;
+claim_luisiana_desc;On 1764, the formal adquisition of the Louisiana territory was announced by Spain and attached as a spanish gobernance to the general cuban capitany, which was part of the Viceroyalty of New Spain, later Mexico. This lays a solid claim on this vast territory for the mexican people.;;;;;;;;;;;;;
+claim_florida_title;Claim the Florida Peninsula!;;;;;;;;;;;;;
+claim_florida_desc;The Florida peninsula was the first important european settlement in North America, it formed part of the general cuban capitany, which was part of the Viceroyalty of New Spain just like the Louisiana Territory, this naturally also gives us claim on the territory and it's corridor.;;;;;;;;;;;;;
+claim_philippines_title;Conquer the Philippines;;;;;;;;;;;;;
+claim_philippines_desc;With our position growing in the world after defeating the United States of America it is now time to to conquer the a remaining stronghold of Spanish Colonialism... The Philippines. Our claim is justified by the fact they were a part of the viceroyalty of New Spain.;;;;;;;;;;;;;
+remove_us_cores_title;Finalize the Expansion;;;;;;;;;;;;;
+remove_us_cores_desc;With our claims against the Americans achieved, it's time to finally settle in and disolve the American claims in OUR land.;;;;;;;;;;;;;
