@@ -1,8 +1,8 @@
-name = "War of the Farrapos"
+name = "The Cabanagem"
 
 1835.10.2 = {
 	add_attacker = BRZ
-	add_defender = RGS
+	add_defender = GRP
 	
 	# actor
 	# receiver
@@ -12,7 +12,7 @@ name = "War of the Farrapos"
 	war_goal = {
 		casus_belli = conquest
 		actor = BRZ
-		receiver = RGS
+		receiver = GRP
 	}
 }
 
