@@ -79,14 +79,14 @@ country_event = {
 country_event = {
 
 	id = 117000
-	title = "EVTNAME112931"
-	desc = "EVTDESC112931"
+	title = "EVTNAME117000"
+	desc = "EVTDESC117000"
 	major = yes
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA112931"
+		name = "EVTOPTA117000"
 		set_country_flag = annexed_by_russia
 		HIS = { release_vassal = THIS
 			inherit = THIS }
@@ -95,10 +95,10 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA112931"
+		name = "EVTOPTB117000"
 		set_country_flag = annexed_by_russia
 		HIS = { 		add_casus_belli = {
-				target = AUS
+				target = THIS
 				type = conquest
 				months = 15 }
 				diplomatic_influence = {
