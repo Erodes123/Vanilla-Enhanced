@@ -1,5 +1,6 @@
-owner = EGY
-controller = EGY
+owner = TIG
+controller = TIG
+add_core = TIG
 add_core = EGY
 trade_goods = fruit
 life_rating = 35
