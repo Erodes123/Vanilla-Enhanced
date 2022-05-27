@@ -531,3 +531,7 @@ badboymod;Over Infamy Limit;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 desc_badboymod;We have violated international law by breaching the infamy limit. The nation suffers greatly for the misbehaviour of our Leader!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;
 EVTNAME123412345;You're below infamy limit once again!;;;;;;;;;;;;;x;;;;;;;;;;;
 EVTDESC123412345;Good boy. Here's a cookie.;;;;;;;;;;;;;x;;;;;;;;;;;
+EVTNAME117000;End of our independence?;;;;;;;;;;;;x;
+EVTDESC117000;$FROMCOUNTRY$ has requested we join their union under the "we are stronger together" excuse. Our small country might not resist an attack from $FROMCOUNTRY$, so, maybe, the best we can do is to give it up.;;;;;;;;;;;;x;
+EVTOPTA117000;Yes, we accept to take part in their union.;;;;;;;;;;;;x;
+EVTOPTB117000;They can go straight to hell.;;;;;;;;;;;;x;
