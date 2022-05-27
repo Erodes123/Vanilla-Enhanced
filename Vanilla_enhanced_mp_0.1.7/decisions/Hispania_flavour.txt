@@ -34,7 +34,7 @@ the_hispanic_question = {
 						tag = ELS
 						tag = COS
 						tag = GUA
-						tag = HON } in_sphere = THIS} } country_event = 117000 }
+						tag = HON } in_sphere = THIS} } country_event = 117000 days = 40 }
 		}
 	}
 }	

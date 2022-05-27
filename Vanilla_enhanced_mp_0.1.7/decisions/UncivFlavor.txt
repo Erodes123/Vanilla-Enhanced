@@ -243,4 +243,77 @@ political_decisions = {
 			prestige = 20
 		}
 	}
+	
+	Unify_ethiopia = {
+		potential = {
+			OR = {
+				tag = SHW
+				tag = GON
+				tag = AWS
+				tag = KAF
+				tag = TIG
+			}
+			NOT = {
+				exists = ETH
+			}
+		}
+		allow = {
+			owns = 1857
+			owns = 1852
+			owns = 1862
+			owns = 1859
+			war = no }
+		
+		effect = {
+			prestige = 5				
+			change_tag = ETH
+			add_accepted_culture = nilo_saharan
+			years_of_research = 3
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	Form_Mali_Empire = {
+		potential = {
+			OR = {
+				tag = SEG
+				tag = SOK
+				tag = WOL
+				tag = MOS
+				tag = DAH
+				tag = FUT
+				tag = ASH
+			}
+			NOT = {
+				exists = MLE
+			}
+		}
+		allow = {
+			owns = 1800
+			owns = 1901
+			owns = 1920
+			owns = 1948
+			owns = 1910
+			owns = 1880
+			war = no }
+		
+		effect = {
+			prestige = 5				
+			change_tag = MLE
+			add_accepted_culture = niger_congo_a
+			years_of_research = 3
+			SEG = { all_core = { add_core = MLE } } 
+			SOK = { all_core = { add_core = MLE } } 
+			WOL = { all_core = { add_core = MLE } } 
+			MOS = { all_core = { add_core = MLE } } 
+			DAH = { all_core = { add_core = MLE } } 
+			FUT = { all_core = { add_core = MLE } } 
+			ASH = { all_core = { add_core = MLE } }
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
 }

@@ -24,6 +24,98 @@ political_decisions = {
 		}
 	}
 
+	accept_manchu = {
+		potential = {
+			OR = {
+			tag = JAP
+			tag = SHO}
+			has_country_flag = japan_gains_korea
+			NOT = {
+				has_country_flag = japan_manchu
+			}
+		}
+		
+		allow = {
+			owns = 1479
+		}
+		
+		effect = {
+			set_country_flag = japan_manchu
+			add_accepted_culture = manchu
+			prestige = 20
+			badboy = 2
+		}
+	}
+	claim_outer_manchuria = {
+		potential = {
+			OR = {
+			tag = JAP
+			tag = SHO}
+			owns = 1479
+			NOT = {
+				has_country_flag = japan_manchuria
+			}
+		}
+		
+		allow = {
+			owns = 1479
+		}
+		
+		effect = {
+			set_country_flag = japan_manchuria
+			add_core = CHI_1082
+			prestige = 10
+			badboy = 4
+		}
+	}
+	Japanese_California = {
+		potential = {
+			OR = {
+			tag = JAP
+			tag = SHO}
+			
+			owns = 89
+			NOT = {
+				has_country_flag = japan_usa
+			}
+		}
+		
+		allow = {
+			owns = 89
+		}
+		
+		effect = {
+			set_country_flag = japan_usa
+			add_core = MEX_85
+			prestige = 10
+			badboy = 4
+		}
+	}
+	
+	Japanese_philippines = {
+		potential = {
+			OR = {
+			tag = JAP
+			tag = SHO}
+			
+			owns = 1455
+			NOT = {
+				has_country_flag = japan_phi
+			}
+		}
+		
+		allow = {
+			owns = 1455
+		}
+		
+		effect = {
+			set_country_flag = japan_phi
+			PHI = { all_core = { add_core = THIS } } 
+			prestige = 10
+			badboy = 4
+		}
+	}
+	
 	emperor_meiji = {
 		potential = {
 			tag = JAP
@@ -60,6 +152,51 @@ political_decisions = {
 
         effect = {
             set_country_flag = boshin_war
+            SHO = { country_event = 112929 } }
+
+        ai_will_do = {
+            factor = 1
+            }
+        }
+		overthrow_the_bakufu_2 = {
+        picture = the_meiji_restoration
+        potential = {
+            OR = { tag = CHO
+			tag = TOS
+			tag = SAT }
+           	war = no
+            NOT = {
+                has_country_flag = boshin_war
+                has_country_flag = boshin_war_has_happened
+            }
+			exists = SHO
+		civilized = yes
+        }
+
+        allow = {
+            JAP = { has_country_flag = emperor_meiji
+					ai = yes}
+        }
+
+        effect = {
+            set_country_flag = boshin_war
+			any_country = {
+				limit = {
+					OR = {
+						tag = JAP
+						tag = CHO
+						tag = TOS
+						tag = SAT
+ 
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			change_tag_no_core_switch = JAP
             SHO = { country_event = 112929 } }
 
         ai_will_do = {
