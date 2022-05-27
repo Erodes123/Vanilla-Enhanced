@@ -3,5 +3,6 @@ controller = AUS
 add_core = YUG
 add_core = MON
 add_core = CRO
+add_core = DLM
 trade_goods = fish
 life_rating = 35
