@@ -699,7 +699,7 @@
 	soldiers = {
 		culture = ukrainian
 		religion = orthodox
-		size = 1950
+		size = 6950
 	}
 
 	farmers = {

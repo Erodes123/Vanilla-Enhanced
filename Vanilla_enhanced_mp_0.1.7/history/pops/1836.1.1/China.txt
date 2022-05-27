@@ -3339,7 +3339,7 @@
 	farmers = {
 		culture = zhuang
 		religion = animist
-		size = 383325
+		size = 283325
 	}
 
 	aristocrats = {
@@ -3375,7 +3375,7 @@
 	farmers = {
 		culture = yue
 		religion = mahayana
-		size = 283975
+		size = 183975
 	}
 
 	aristocrats = {
@@ -3859,7 +3859,7 @@
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 314150
+		size = 214150
 	}
 
 	aristocrats = {
@@ -3989,7 +3989,7 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 617525
+		size = 517525
 	}
 
 	aristocrats = {
@@ -4099,7 +4099,7 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 704350
+		size = 604350
 	}
 
 	aristocrats = {
@@ -4351,7 +4351,7 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 710075
+		size = 610075
 	}
 
 	aristocrats = {
@@ -4481,7 +4481,7 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 667975
+		size = 567975
 	}
 }
 #Weihui (4120000/1030000 POPS)
@@ -4543,7 +4543,7 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 837900
+		size = 737900
 	}
 }
 #Hubei Region (27740000)
@@ -4607,7 +4607,7 @@
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 714650
+		size = 514650
 	}
 
 	aristocrats = {
@@ -4747,7 +4747,7 @@
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 839275
+		size = 739275
 	}
 }
 #Huangzhou (3312000/828000 POPS)
@@ -4797,7 +4797,7 @@
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 623800
+		size = 523800
 	}
 
 	aristocrats = {
@@ -5017,7 +5017,7 @@
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 729000
+		size = 629000
 	}
 
 	aristocrats = {
@@ -5097,7 +5097,7 @@
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 705750
+		size = 605750
 	}
 
 	aristocrats = {
@@ -5213,7 +5213,7 @@
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 755700
+		size = 655700
 	}
 
 	aristocrats = {
@@ -5293,7 +5293,7 @@
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 630475
+		size = 530475
 	}
 
 	aristocrats = {
