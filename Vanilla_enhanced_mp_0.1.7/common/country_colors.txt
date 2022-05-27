@@ -1,4 +1,164 @@
 # Country unit colors.
+ # Mali
+MLE = {
+    color1= { 252 210 41} 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Grao-Para
+GRP = {
+    color1= { 201 255 172 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Segu
+SEG = {
+    color1= { 166 72 57 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Siak Sri
+SRI = {
+    color1= { 219 195 240 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Warsangali
+WAR = {
+    color1= { 16 24 71 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Aussa
+AWS = {
+    color1= { 28 255 164 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Tigray
+TIG = {
+    color1= { 108 49 108 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Shewa
+SHW = {
+    color1= { 128 128 64 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Gonder
+GON = {
+    color1= { 113 160 213 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Kaffa
+KAF = {
+    color1= { 100 0 15 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Tosa
+TOS = {
+    color1= { 204 183 57 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Choshu
+CHO = {
+    color1= { 194 103 47 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Satsuma
+SAT = {
+    color1= { 184 133 77 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Mossi
+MOS = {
+    color1= { 230 14 213 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Wolof
+WOL = {
+    color1= { 91 146 180 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Dahomey
+DAH = {
+    color1= { 188 92 47 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Dalmatia
+DLM = {
+    color1= { 123 141 186 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # rhineland
+RHI = {
+    color1= { 10190 15 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Brittany
+BRT = {
+    color1= { 100 100 100 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Patagonia
+PTG = {
+    color1= { 219 182 182 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Sigmaringen
+SGM = {
+    color1= { 16 24 71 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Serbia and Montenegro
+SMO = {
+    color1= { 104  166  186 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+ # Faroe
+FRO = {
+    color1= { 0 101 189 } 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
 
  # Peru-Bolivia Confederation Spain
 PBS = {
