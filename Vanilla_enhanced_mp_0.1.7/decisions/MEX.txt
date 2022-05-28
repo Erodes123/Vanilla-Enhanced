@@ -67,6 +67,9 @@ political_decisions = {
 			NOT = { has_country_flag = annexation_of_mex
 					has_country_flag = treaty_of_guadalupe_hidalgo }
 			MEX = { is_greater_power = no }
+			war_with = MEX
+			2172 = { controlled_by = USA }
+			NOT = { year = 1851 }
 		}
 
 		allow = {
@@ -86,7 +89,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = annexation_of_mex
 			inherit = MEX
-			badboy = 22
+			badboy = 35
 		}
 
 		ai_will_do = {
@@ -145,6 +148,12 @@ political_decisions = {
 			129 = {
 				remove_core = USA
 			}
+			109 = {
+				remove_core = USA
+			}
+			107 = {
+				remove_core = USA
+			}
 			prestige = 20
 		}
 	}
@@ -157,7 +166,7 @@ political_decisions = {
 					has_country_flag = MEXcentralamerica  }
 		}
 		allow = { 
-			has_country_flag = refute_manifest_destiny
+			has_country_flag = refute_manifest_destiny }
 		effect = { 
 				USA_78 = { add_core = MEX }
 				USA_91 = { add_core = MEX }
@@ -169,7 +178,13 @@ political_decisions = {
 				USA_124	= { add_core = MEX }
 				USA_148	= { add_core = MEX }
 				USA_151 = { add_core = MEX }
-				USA_158	= { add_core = MEX }	
+				USA_158	= { add_core = MEX }
+				USA_81 = { add_core = MEX }
+				USA_106	= { add_core = MEX }
+				USA_129	= { add_core = MEX }
+				USA_144	= { add_core = MEX }
+				USA_139	= { add_core = MEX }
+				
 				set_country_flag = MEXlouisiana	
 		}
 	}
@@ -217,7 +232,7 @@ political_decisions = {
 				}
 			}	
 			set_country_flag = MEXcentralamerica
-		}
+		} }
     accept_mayan = {
         potential = {
             tag = MEX       

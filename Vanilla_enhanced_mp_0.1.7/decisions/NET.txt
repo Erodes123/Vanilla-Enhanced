@@ -81,5 +81,33 @@ political_decisions = {
 		ai_will_do = {
 			factor = 1
 		}
+	}
+	Accept_picards = {
+		potential = {
+				tag = BNX
+			revolution_n_counterrevolution = 1
+		}
+		allow = {
+			war = no
+		BNX = {
+				all_core = {
+					OR = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 5
+			add_accepted_culture = picard
+		}
+		ai_will_do = {
+			factor = 1
+		}
 	}	
 }
