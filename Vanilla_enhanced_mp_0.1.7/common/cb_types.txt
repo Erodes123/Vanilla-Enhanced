@@ -2457,12 +2457,6 @@ annex_mandates = {
 
 	can_use = {
                 has_country_modifier = mandate_modifier
-		THIS = {
-			NOT = {
-                has_country_modifier = neutrality_modifier
-			}
-		}
-        	NOT = { has_country_modifier = neutrality_modifier }
 	}
 
 	po_disarmament = no
@@ -2511,12 +2505,6 @@ take_parts_mandates = {
 
 	can_use = {
                 has_country_modifier = mandate_modifier
-		THIS = {
-			NOT = {
-                has_country_modifier = neutrality_modifier
-			}
-		}
-        	NOT = { has_country_modifier = neutrality_modifier }
 	}
 
 	po_disarmament = no
