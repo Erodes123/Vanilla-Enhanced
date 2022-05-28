@@ -15,7 +15,7 @@ country_event = {
 
 		}
 	mean_time_to_happen = {
-		days = 40
+		days = 20
 		}
 	option = {
 		name = "EVT1129300OPT"

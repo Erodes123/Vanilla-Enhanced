@@ -50,15 +50,13 @@ country_event = {
 		}
  
 	mean_time_to_happen =  {
-		months = 1
+		days = 0
 	}
 
 	title = "EVTNAME44000"
 	desc = "EVTDESC44000"
 	picture = "leper"
 	
-	
-
 	option = {
 		name = "EVTOPTA44000" 
 		set_country_flag = mandate_stuff
@@ -85,7 +83,7 @@ country_event = {
 		}
  
 	mean_time_to_happen =  {
-		months = 1
+		days = 0
 	}
 
 	title = "EVTNAME44000"
@@ -120,7 +118,7 @@ country_event = {
 		}
  
 	mean_time_to_happen =  {
-		months = 1
+		days = 0
 	}
 
 	title = "EVTNAME44000"
@@ -155,7 +153,7 @@ country_event = {
 		}
  
 	mean_time_to_happen =  {
-		months = 1
+		days = 0
 	}
 
 	title = "EVTNAME44000"
@@ -190,7 +188,7 @@ country_event = {
 		}
  
 	mean_time_to_happen =  {
-		months = 1
+		days = 0
 	}
 
 	title = "EVTNAME44000"
