@@ -2145,7 +2145,7 @@ country_event = {
 				add_core = USA
 			}
 		}
-		inherit = FROM
+		TEX = { annex_to = THIS }
 		ai_chance = {
 			factor = 10
 		}
