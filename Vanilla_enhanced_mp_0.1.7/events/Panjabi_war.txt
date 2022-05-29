@@ -10,6 +10,7 @@ country_event = {
 	trigger = {
 		tag = ENG
 		year = 1839
+		PAN = { exists = yes }
 		NOT = { 
 			has_country_flag = pan_revolution_has_happened
 		}
