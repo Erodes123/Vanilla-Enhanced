@@ -492,6 +492,8 @@ country_event = {
             any_country = {
                 limit = { is_greater_power = yes capital_scope = { continent = europe } NOT = { tag = TUR } }
                 country_event =  110078 }
+            set_variable = { which = no_to_luxembourg value = 0 }
+            set_variable = { which = yes_to_luxembourg value = 0 }
 	}
 }
 #Yes or no to Luxembourg?

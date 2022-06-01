@@ -135,6 +135,7 @@ country_event = {
 	trigger = {
 		tag = BUL
 		year = 1885
+		exists = BUL
 		NOT = { 
 			has_global_flag = bulgarian_rumelia
 		}
@@ -174,6 +175,7 @@ country_event = {
 	
 	trigger = {
 		tag = BUL
+		exists = BUL
 		NOT = { 
 			has_global_flag = bulgaria_independent
 			}
@@ -183,6 +185,7 @@ country_event = {
 		}
 		KUK = {
 			has_country_flag = austria_gains_bosnia }
+		year = 1890
 		}
 	}
 
