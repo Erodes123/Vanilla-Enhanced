@@ -3,6 +3,7 @@ political_decisions = {
 		picture = iberia
 		potential = {
 			is_greater_power = yes
+			has_country_flag = european_expansion
 			NOT = { has_country_flag = regain_our_colonies }
 			OR = {
 				tag = SPA
@@ -14,7 +15,6 @@ political_decisions = {
 		}	
 		allow = {
 			nationalism_n_imperialism = 1
-			year = 1860
 			NOT = { has_country_flag = regain_our_colonies }
 			war = no
 			SPA = {
@@ -103,7 +103,6 @@ political_decisions = {
 					
 		effect = {
 			set_country_flag = iberian_italy
-			add_accepted_culture = south_italian
 			prestige = 5
 			766 = { add_core = IBE }
 			765 = { add_core = IBE }
@@ -120,6 +119,27 @@ political_decisions = {
 			756 = { add_core = IBE }
 			757 = { add_core = IBE }
 			753 = { add_core = IBE }
+		ai_will_do = {
+			factor = 1 }
+		}
+	}
+	accept_south_italian = {
+		potential = {
+			tag = IBE
+			has_country_flag = european_expansion
+			NOT = { has_country_flag = iberian_italy }
+		}	
+		allow = {
+			has_country_flag = european_expansion
+			war = no
+			owns = 760
+			owns = 766
+			owns = 2567			}
+					
+		effect = {
+			set_country_flag = iberian_italy
+			prestige = 5
+			add_accepted_culture = south_italian
 		ai_will_do = {
 			factor = 1 }
 		}

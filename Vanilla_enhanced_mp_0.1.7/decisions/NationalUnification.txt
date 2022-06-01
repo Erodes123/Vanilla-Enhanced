@@ -414,12 +414,16 @@ political_decisions = {
 			prestige = 45
 			war = no
 			SCA = {
-				all_core = {
+				all_core = { 
 					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
 						}
+					province_id = 371
+					province_id = 370
 					}
 				}
 			}
