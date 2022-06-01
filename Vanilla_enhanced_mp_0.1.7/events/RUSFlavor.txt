@@ -481,7 +481,12 @@ country_event = {
 	desc = "EVTDESC113211"
 	major = yes
 	
-	trigger = {
+	trigger = { OR = { tag = AUS
+					tag = KUK
+					tag = RUS
+					tag = PRU
+					tag = NGF
+					tag = GER } 
 	OR = { AND = {
 		owns = 706
 		CPL = {
