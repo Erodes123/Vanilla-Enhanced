@@ -9,7 +9,7 @@ political_decisions = {
 			NOT = {
 				exists = GCO
 			}
-		}
+		}	
 		allow = {
 			war = no
 			ECU = {
@@ -38,11 +38,11 @@ political_decisions = {
 				all_core = { 
 					OR = {
 						OR = {
+							vassal_of = THIS
 							owned_by = THIS
 							owner = {
 								in_sphere = THIS
 							}
-							vassal_of = THIS
 						}
 					province_id = 2243
 					province_id = 2242
