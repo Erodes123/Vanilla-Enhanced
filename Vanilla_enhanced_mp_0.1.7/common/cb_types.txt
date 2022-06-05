@@ -2052,12 +2052,10 @@ take_capital = {
 		}
 	}
 }
-#Transfer
 #Negotiated Transfer
 negotiated_transfer = {
 	sprite_index = 5
 	is_triggered_only = yes
-	months = 0
 	crisis = no
 
 	badboy_factor = 0
@@ -2077,29 +2075,19 @@ negotiated_transfer = {
 	construction_speed = 2.0
 
 	can_use = {
-		NOT = { has_country_modifier = neutrality_modifier }
 		number_of_states = 2 # annex if you want their last state
-		ai = no
-		THIS = { ai = no }
-		THIS = { civilized = yes }
-		THIS = {
-			NOT = {
-                has_country_modifier = neutrality_modifier
+		OR = {
+			ai = no
+			AND = {
+				ai = yes
+				is_independant = no
+				overlord = { ai = no }
 			}
 		}
+		THIS = { ai = no }
 	}
 	
 	allowed_states = {
-		OR = {
-			is_colonial = yes
-			is_colonial = no
-		}
-		any_owned_province = {
-                     OR = {
-			is_colonial = yes
-			is_colonial = no
-                     }
-		}
 		not = { any_owned_province = { is_capital = yes } }
 	}
 
