@@ -159,7 +159,7 @@ political_decisions = {
 		picture = desertcol
 		potential = {
 			THIS = {
-				owns = 1800
+				owns = 1804
 
 				}
 			NOT = {
