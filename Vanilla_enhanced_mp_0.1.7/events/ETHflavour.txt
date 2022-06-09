@@ -5,7 +5,7 @@ country_event = {
 	desc = "EVTDESC106000"
 	
 	trigger = {
-		tag = ETH
+		owns = 1861
 		year = 1870
 		NOT = {
 			year = 1871
@@ -18,6 +18,8 @@ country_event = {
 			1864 = { secede_province = ETH any_pop = { literacy = -0.99 } life_rating = 10 }	
 			1866 = { secede_province = ETH any_pop = { literacy = -0.99 } life_rating = 10 }
 			1867 = { secede_province = ETH any_pop = { literacy = -0.99 } life_rating = 10 }	
+			1863 = { secede_province = ETH any_pop = { literacy = -0.99 } life_rating = 10 }
+			1865 = { secede_province = ETH any_pop = { literacy = -0.99 } life_rating = 10 }	
 	}
 }
 #Nejd
@@ -66,13 +68,15 @@ country_event = {
 			1933 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }
 			1931 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }	
 			1932 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }
-			1934 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }	
+			1934 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }
+			1930 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 15 }
+			1936 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 15 }		
 	}
 }
 country_event = {
 
 	id = 127000
-	title = "Sokot protectorate"
+	title = "Sokoto protectorate"
 	desc = "Lagos is under our protection, and as the only power in the region, we must annex them into our empire."
 	major = yes
 	

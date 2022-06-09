@@ -92,7 +92,10 @@ country_event = {
 			2564 = { secede_province = EGY any_pop = { literacy = -0.99 } life_rating = 15 }
 			1838 = { secede_province = EGY any_pop = { literacy = -0.99 } life_rating = 15 }
 			1839 = { secede_province = EGY any_pop = { literacy = -0.99 } life_rating = 15 }
-			1841 = {
+			2564 = { secede_province = EGY any_pop = { literacy = -0.99 } life_rating = 15 }
+			1844 = { secede_province = EGY any_pop = { literacy = -0.99 } life_rating = 15 }
+			1845 = { secede_province = EGY any_pop = { literacy = -0.99 } life_rating = 15 }
+			1846 = {
 				add_core = THIS
 			}
 			1842 = {
