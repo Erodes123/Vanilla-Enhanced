@@ -1,5 +1,11 @@
 #Sphere of Influence
 
+POR = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
 EGY = {
 	value = 125		#relation
 	level = 3		#3=cordial, 4 = friendly, 5 sphere
