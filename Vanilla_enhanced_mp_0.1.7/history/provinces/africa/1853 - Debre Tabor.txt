@@ -1,5 +1,6 @@
-owner = TIG
-controller = TIG
+owner = SHW
+controller = SHW
+add_core = SHW
 add_core = TIG
 add_core = ETH
 trade_goods = cattle

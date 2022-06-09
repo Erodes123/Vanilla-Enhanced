@@ -1,5 +1,5 @@
-owner = SEG
-controller = SEG
-add_core = SEG
+owner = FUT
+controller = FUT
+add_core = FUT
 trade_goods = wool
 life_rating = 15
