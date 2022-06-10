@@ -1,5 +1,3 @@
-owner = FUT
-controller = FUT
-add_core = FUT
+
 trade_goods = fruit
-life_rating = 25
+life_rating = 15

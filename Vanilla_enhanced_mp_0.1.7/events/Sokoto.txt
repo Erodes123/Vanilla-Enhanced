@@ -17,7 +17,9 @@ country_event = {
 			1929 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 5 }
 			1926 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 15 }
 			1924 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 15 }
-			1925 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 15 }	
+			1925 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 15 }
+			1930 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 15 }
+			1936 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 15 }	
 	}
 }
 country_event = {

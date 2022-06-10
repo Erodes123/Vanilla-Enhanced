@@ -215,6 +215,12 @@ political_decisions = {
 			ENG_1848 = {
 				add_core = ETH
 			}
+			1863 = {
+				secede_province = THIS
+			}
+			1865 = {
+				secede_province = THIS
+			}
 		}
 	}
 	
