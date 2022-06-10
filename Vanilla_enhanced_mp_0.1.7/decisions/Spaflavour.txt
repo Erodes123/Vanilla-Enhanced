@@ -895,10 +895,7 @@ political_decisions = {
 							OR = {
 								tag = THIS
 								OR = {
-									AND = {
 										in_sphere = THIS
-										ai = yes
-									}
 									vassal_of = THIS
 								}
 							}
