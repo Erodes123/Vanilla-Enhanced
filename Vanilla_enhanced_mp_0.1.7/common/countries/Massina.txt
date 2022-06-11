@@ -1,23 +1,23 @@
-color = { 91 146 180 }
+color = { 57 72 207 }
 graphical_culture = AfricanGC
 
 party = {
-    name = "SOK_conservative"
+    name = "MAS_conservative"
     start_date = 1800.1.1
     end_date = 2000.1.1
 
     ideology = conservative
 
     social_policy = no_position_set
-    economic_policy = interventionism
+    economic_policy = state_capitalism
     trade_policy = protectionism
     religious_policy = moralism
-    citizenship_policy = limited_citizenship
+    citizenship_policy = residency
     war_policy = pro_military
 }
 
 party = {
-    name = "SOK_liberal"
+    name = "MAS_liberal"
     start_date = 1820.1.1
     end_date = 1936.1.1
 
@@ -32,14 +32,14 @@ party = {
 }
 
 party = {
-    name = "SOK_reactionary"
+    name = "MAS_reactionary"
     start_date = 1820.1.1
     end_date = 2000.1.1
 
     ideology = reactionary
 
     social_policy = no_position_set
-    economic_policy = state_capitalism
+    economic_policy = interventionism
     trade_policy = protectionism
     religious_policy = moralism
     citizenship_policy = residency
@@ -47,7 +47,7 @@ party = {
 }
 
 party = {
-    name = "SOK_anarcho_liberal"
+    name = "MAS_anarcho_liberal"
     start_date = 1830.1.1
     end_date = 2000.1.1
 
@@ -62,7 +62,7 @@ party = {
 }
 
 party = {
-    name = "SOK_socialist"
+    name = "MAS_socialist"
     start_date = 1848.1.1
     end_date = 2000.1.1
 
@@ -77,7 +77,7 @@ party = {
 }
 
 party = {
-    name = "SOK_communist"
+    name = "MAS_communist"
     start_date = 1848.1.1
     end_date = 2000.1.1
 
@@ -92,7 +92,7 @@ party = {
 }
 
 party = {
-    name = "SOK_fascist"
+    name = "MAS_fascist"
     start_date = 1900.1.1
     end_date = 2000.1.1
 
