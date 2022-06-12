@@ -163,11 +163,9 @@ country_event = {
 	trigger = {
 		tag = MLE
 		exists = yes
-		1893 = { empty = yes }
-		1892 = { empty = yes }
-		1914 = { empty = yes }
 		NOT = {
-				has_global_flag = mali_is_ours }
+				has_global_flag = mali_is_ours
+				year = 1870}
 	}
 	option = {
 		name = "EVTOPTA106000"
@@ -175,27 +173,16 @@ country_event = {
 			1893 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}	
 			1896 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
 			1895 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
-			1900 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
-			1898 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
-			1899 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
 			1897 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
 			1892 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
 			1894 = { add_core = THIS}	
 			1909 = { add_core = THIS}
 			1908 = { add_core = THIS}
-			1918 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
-			1917 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
-			1914 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
-			1923 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
-			1926 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
-			1924 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}	
-			1925 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
-			1929 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
-			1928 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
-			1931 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
-			1932 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
+			1918 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}}
 			1933 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
 			1934 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
+			1912 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
+			1913 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 15 add_core = THIS}
 			1935 = { secede_province = THIS life_rating = 15 add_core = THIS}
 	}
 	

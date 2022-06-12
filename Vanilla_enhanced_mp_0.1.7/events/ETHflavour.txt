@@ -48,70 +48,22 @@ country_event = {
 	desc = "EVTDESC106000"
 	
 	trigger = {
-		tag = SOK
+		
 		year = 1870
 		NOT = {
 			year = 1871
 			has_global_flag = sok_is_united
 		}
-		exists = SOK
+		owns = 1923
+		civilized = yes
 	}
 	option = {
 		name = "EVTOPTA106000"
 		set_global_flag = sok_is_united
-			1924 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }	
-			1925 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }
-			1926 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }
-			1929 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }	
-			1928 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }
-			1935 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }
-			1933 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }
-			1931 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }	
-			1932 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }
-			1934 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }
-			1930 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 15 }
-			1936 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 15 }		
-	}
-}
-country_event = {
-
-	id = 127000
-	title = "Sokoto protectorate"
-	desc = "Lagos is under our protection, and as the only power in the region, we must annex them into our empire."
-	major = yes
-	
-	trigger = {
-		owns = 1923
-		year = 1870
-		NOT = {  
-			has_global_flag = sok_revolution_has_happened
-		}
-		exists = SOK
-		SOK = { owns = 1924 }
-	}
-
-	
-	option = {
-		name = "EVTOPTA107000"
-		any_pop = {
-			consciousness = 1
-			militancy = -1
-		}
-        casus_belli = {
-            target = SOK
-            type = establish_protectorate_casus_belli
-            months = 12
-        }
-		war = {
-			target = SOK
-			attacker_goal = {
-				casus_belli = establish_protectorate_casus_belli
-			}
-			
-			defender_goal = {
-				casus_belli = status_quo
-			}
-		}
-		set_global_flag = sok_revolution_has_happened
+			1935 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 10 }
+			1933 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 10 }	
+			1934 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 10 }	
+			1930 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 10 }	
+			1936 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 10 }			
 	}
 }

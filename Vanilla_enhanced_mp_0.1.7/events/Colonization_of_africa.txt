@@ -256,3 +256,62 @@ country_event = {
 		
 	}
 }
+#slow eating of Africa
+country_event = {
+
+	id = 117001
+	title = "EVTNAME117000"
+	desc = "EVTDESC117000"
+	
+	trigger = { year = 19000000 }
+	
+		option = {
+		name = "EVTOPTB117000"
+		THIS = { add_casus_belli = {
+				target = FROM
+				type = establish_protectorate_casus_belli
+				months = 15 } }
+		THIS = { add_casus_belli = {
+				target = FROM
+				type = demand_concession_casus_belli
+				months = 15 } }
+		THIS = { add_casus_belli = {
+				target = FROM
+				type = take_capital
+				months = 15 } }
+		} 
+	
+	option = {
+		name = "EVTOPTA117000"
+		FROM = { inherit = THIS }
+		ai_chance = {
+			factor = 0 }
+	}
+}
+country_event = {
+
+	id = 1170010
+	title = "EVTNAME117000"
+	desc = "EVTDESC117000"
+	major = yes
+	
+	trigger = { year = 19000000 }
+	
+		option = {
+		name = "EVTOPTB117000"
+		THIS = { add_casus_belli = {
+				target = FROM
+				type = establish_protectorate_casus_belli
+				months = 15 }
+		}
+		FRA = { war = {
+			target = SOK
+			attacker_goal = {
+				casus_belli = establish_protectorate_casus_belli
+			}
+			defender_goal = {
+				casus_belli = status_quo }
+			}
+		}
+	}
+}

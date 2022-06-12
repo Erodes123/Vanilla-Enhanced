@@ -62,7 +62,7 @@ country_event = {
 
         casus_belli = {
             target = ACN
-            type = demand_reperations
+            type = cut_down_to_size
             months = 12
         }
        ACN = { casus_belli = {
@@ -79,10 +79,10 @@ country_event = {
 		war = {
 			target = ACN
 			attacker_goal = {
-				casus_belli = demand_reperations
+				casus_belli = cut_down_to_size
 			}
 			defender_goal = {
-				casus_belli = cut_down_to_size
+				casus_belli = demand_reperations
 			}
 		}
 		ACO = { add_core = 2315

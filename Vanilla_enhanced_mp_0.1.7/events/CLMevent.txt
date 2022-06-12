@@ -23,3 +23,28 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = 1129500
+	title = "Brazil demands Fuerte San Joaquin"
+	desc = "EVTDESC112950"
+	picture = "expansion"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTB112950"
+		2532 = { add_core = BRZ }		
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = "EVTOPTA112891"
+		2532 = { secede_province = BRZ }
+		2532 = { remove_core = VNZ }
+		2532 = { add_core = BRZ }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
