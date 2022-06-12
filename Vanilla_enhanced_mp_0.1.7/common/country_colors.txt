@@ -1,4 +1,95 @@
 # Country unit colors.
+ # Baluchistan
+BLC = {
+    color1= { 252 210 41} 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+ # Massina
+MAS = {
+    color1= { 252 210 41} 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+ # Damagaram
+DAM = {
+    color1= { 252 210 41} 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+ # Futa Toro
+FTO = {
+    color1= { 252 210 41} 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+ # Tukulor Empire
+TUK = {
+    color1= { 252 210 41} 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+ # Kaarta
+KAA = {
+    color1= { 252 210 41} 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+ # Dendi
+DND = {
+    color1= { 252 210 41} 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+ # Warri
+WRI = {
+    color1= { 252 210 41} 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+ # Waddai
+WAD = {
+    color1= { 252 210 41} 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+ # Majeerteen
+MAJ = {
+    color1= { 252 210 41} 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+ # Geledi
+GEL = {
+    color1= { 252 210 41} 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+ # Kong
+KON = {
+    color1= { 252 210 41} 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+ # Benin
+BEN = {
+    color1= { 252 210 41} 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+ # oyo
+OYO = {
+    color1= { 252 210 41} 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+ # Bornu
+BOR = {
+    color1= { 252 210 41} 
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
  # Mali
 MLE = {
     color1= { 252 210 41} 
