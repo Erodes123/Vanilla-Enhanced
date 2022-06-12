@@ -171,6 +171,7 @@ political_decisions = {
 	}
 #AUSTRIA
 	enact_dual_monarchy_2 = {
+			NOT = { has_country_flag = austrian_balkans }
 		potential = {
 			tag = AUS
 			war = no
