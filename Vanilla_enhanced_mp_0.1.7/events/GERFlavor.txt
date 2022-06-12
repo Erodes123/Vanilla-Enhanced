@@ -740,3 +740,27 @@ country_event = {
         GER = { all_core = { limit = { life_rating = 40  } life_rating = -5 } }
     }
 }
+#Septemberprogramm
+country_event = {
+
+	id = 118000
+	title = "EVTNAME118000"
+	desc = "EVTDESC118000"
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA118000"
+		set_country_flag = Septemberprogramm
+		398 = { secede_province = FROM }
+		395 = { secede_province = FROM }
+		396 = { secede_province = FROM }
+		GER = { create_vassal = BEL }
+		ai_chance = {
+			factor = 100 }
+	}
+		ai_chance = {
+			factor = 100 
+	}
+}
