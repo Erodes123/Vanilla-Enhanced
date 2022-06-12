@@ -19,6 +19,24 @@ political_decisions = {
 			prestige = 2
 		}
 	}
+	Venezuelan_boder_dispute = {
+		potential = {
+			tag = BRZ
+			NOT = {
+				has_country_flag = forte_is_ours
+			}
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			set_country_flag = forte_is_ours
+			VNZ = { country_event = 1129500 }			
+			prestige = 2
+		}
+	}
 	golden_law = {
         picture = golden_law
         potential = {

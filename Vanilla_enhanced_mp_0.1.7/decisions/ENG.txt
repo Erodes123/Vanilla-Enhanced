@@ -349,7 +349,6 @@ political_decisions = {
 			YEM = {
 				ai = yes
 				civilized = no
-				government = absolute_monarchy
 			}
 			NOT = { has_country_flag = created_aden_protectorate }
 		}

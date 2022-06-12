@@ -282,26 +282,19 @@ political_decisions = {
 	}	
 	Form_Mali_Empire = {
 		potential = {
-			OR = {
-				tag = SEG
-				tag = SOK
-				tag = WOL
-				tag = MOS
-				tag = DAH
-				tag = FUT
-				tag = ASH
-			}
+			OR = { 
+			primary_culture = niger_congo_a
+			tag = TUK }
 			NOT = {
 				exists = MLE
 			}
 		}
 		allow = {
 			owns = 1800
-			owns = 1901
-			owns = 1920
-			owns = 1948
-			owns = 1910
 			owns = 1880
+			owns = 1901
+			owns = 1808
+			owns = 1948
 			war = no }
 		
 		effect = {
@@ -316,7 +309,86 @@ political_decisions = {
 			DAH = { all_core = { add_core = MLE } } 
 			FUT = { all_core = { add_core = MLE } } 
 			ASH = { all_core = { add_core = MLE } }
+			WAD = { all_core = { add_core = MLE } }
+			BOR = { all_core = { add_core = MLE } }
+			OYO = { all_core = { add_core = MLE } }
+			WRI = { all_core = { add_core = MLE } }
+			BEN = { all_core = { add_core = MLE } }
+			KON = { all_core = { add_core = MLE } }
+			DND = { all_core = { add_core = MLE } }
+			KAA = { all_core = { add_core = MLE } }
+			years_of_research = 5
 			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	Form_Tukulor_Empire = {
+		potential = {
+			primary_culture = afro_asiatic
+			NOT = {
+				exists = TUK
+			}
+		}
+		allow = {
+			owns = 1800
+			owns = 1804
+			owns = 1901
+			owns = 1808
+			owns = 1796
+			war = no }
+		
+		effect = {
+			prestige = 5				
+			change_tag = TUK
+			add_accepted_culture = niger_congo_a
+			years_of_research = 3
+			SEG = { all_core = { add_core = TUK } } 
+			KAA = { all_core = { add_core = TUK } } 
+			MOS = { all_core = { add_core = TUK } } 
+			MAS = { all_core = { add_core = TUK } } 
+			DND = { all_core = { add_core = TUK } } 
+			FAM = { all_core = { add_core = TUK } } 
+			FTO = { all_core = { add_core = TUK } }
+			years_of_research = 5
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	Isokan = {
+		potential = {
+			OR = { tag = BEN
+			tag = WRI
+			tag = OYO }
+			NOT = { has_country_flag = isokan }
+		}
+		allow = {
+			owns = 1928
+			owns = 1931
+			owns = 1926
+			war = no }
+		
+		effect = {
+			set_country_flag = isokan
+			prestige = 5	
+			add_accepted_culture = niger_congo_a
+			years_of_research = 3
+			BEN = { all_core = { add_core = THIS } } 
+			WRI = { all_core = { add_core = THIS } } 
+			OYO = { all_core = { add_core = THIS } }
+			DAH = { all_core = { add_core = THIS } } 
+			SOK = { all_core = { add_core = THIS } }  
+			1930 = { secede_province = THIS add_core = THIS } 
+			1933 = { secede_province = THIS add_core = THIS } 
+			1934 = { secede_province = THIS add_core = THIS } 
+			1935 = { secede_province = THIS add_core = THIS } 
+			1936 = { secede_province = THIS add_core = THIS } 
+			years_of_research = 5
 		}
 		ai_will_do = {
 			factor = 1

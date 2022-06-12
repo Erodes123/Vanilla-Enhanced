@@ -133,7 +133,9 @@ political_decisions = {
 		potential = {
 			THIS = {
 				owns = 1776
-
+				OR = { 
+				is_secondary_power = yes
+				is_greater_power = yes }
 				}
 			NOT = {
 				has_global_flag = mauritania_is_ours_forever
@@ -160,6 +162,9 @@ political_decisions = {
 		potential = {
 			THIS = {
 				owns = 1804
+				OR = { 
+				is_secondary_power = yes
+				is_greater_power = yes }
 
 				}
 			NOT = {
@@ -200,6 +205,9 @@ political_decisions = {
 			year = 1870
 			THIS = {
 				owns = 1811
+				OR = { 
+				is_secondary_power = yes
+				is_greater_power = yes }
 			}
 		}
 		
@@ -217,6 +225,9 @@ political_decisions = {
 		potential = {
 			THIS = {
 				owns = 1823
+				OR = { 
+				is_secondary_power = yes
+				is_greater_power = yes }
 
 				}
 			NOT = {
@@ -293,8 +304,6 @@ political_decisions = {
 #				life_rating = 20
 #				add_core = OYO
 			}
-			SOK = { country_event = 112910 }
-			THIS = { country_event = 112911 }
 		}
 		ai_will_do = {
 			factor = 1

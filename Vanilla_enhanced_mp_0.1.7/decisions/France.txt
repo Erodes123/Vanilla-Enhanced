@@ -258,41 +258,6 @@ political_decisions = {
 			}
 		}
 	}
-
-        #French senegal
-	senegal_is_ours = {
-		picture = african_land
-		potential = {
-			THIS = {
-				owns = 1784
-
-				}
-			NOT = {
-				has_global_flag = senegal_is_ours_forever
-			}
-		}
-		
-		allow = {
-			year = 1870
-			THIS = {
-				owns = 1784
-			}
-		}
-		
-		effect = {
-			set_global_flag = senegal_is_ours_forever
-			1792 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }	
-			1793 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }
-			1791 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }
-			1788 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }
-			1790 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }	
-			1786 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }
-			1787 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }	
-			2573 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }
-			1783 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }
-			prestige = 5
-		}
-	}
         #French argelia
 	Argelia_is_ours = {
 		picture = african_land
@@ -332,39 +297,6 @@ political_decisions = {
 			1724 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }
 			1719 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }
 			1721 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }
-			prestige = 5
-		}
-	}
-        #French cote d'ivoire
-	cote_d'ivoire = {
-		picture = african_land
-		potential = {
-			THIS = {
-				owns = 1894
-				}
-			NOT = {
-				has_global_flag = cote_is_ours_forever
-			}
-		}
-		
-		allow = {
-			year = 1870
-			THIS = {
-				owns = 1894
-			}
-			nationalism_n_imperialism = 1
-		}
-		
-		effect = {
-			set_global_flag = cote_is_ours_forever
-			1893 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }	
-			1896 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }
-			1900 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }
-			1895 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }
-			1898 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }	
-			1899 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }
-			1897 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }	
-			1892 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 5 }
 			prestige = 5
 		}
 	}
