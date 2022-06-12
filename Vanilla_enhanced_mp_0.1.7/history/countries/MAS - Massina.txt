@@ -1,5 +1,6 @@
-capital = 1786
-primary_culture = niger_congo_a
+capital = 1804
+primary_culture = nilo_saharan
+culture = afro_asiatic
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
@@ -28,25 +29,24 @@ school_reforms = no_schools
 
 # New Reforms
 conscription = no_draft
-debt_law = peonage
+debt_law = serfdom
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
 
-ruling_party = SOK_conservative
+ruling_party = MAS_reactionary
 upper_house = {
     fascist = 0
     liberal = 16
-    conservative = 61
-    reactionary = 23
+    conservative = 21
+    reactionary = 63
     anarcho_liberal = 0
     socialist = 0
     communist = 0
 }
 
 set_country_flag = sunni_country
-set_country_flag = lacking_writing_system
 
 # Technologies
 
@@ -56,9 +56,9 @@ set_country_flag = lacking_writing_system
 consciousness = 0
 nonstate_consciousness = 0
 
-oob = "WOL_oob.txt"
+oob = "MAS_oob.txt"
 1861.1.1 = {
-    oob = "/1861/WOL_oob.txt"
+    oob = "/1861/MAS_oob.txt"
     foreign_weapons = yes_foreign_weapons
     flintlock_rifles = 1
 }
