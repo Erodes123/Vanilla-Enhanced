@@ -18874,26 +18874,26 @@
 
 # Nancy
 411 = {
+    text_position = {
+        x = 2901.250000
+        y = 1603.300000
+    }
+
+    text_rotation = 0.000001
+    text_scale = 2.200000
     unit = {
         x = 2897.000000
         y = 1602.000000
     }
 
-    text_position = {
-        x = 2896.500000
-        y = 1599.699951
-    }
-
-    text_rotation = 0.000001
-    text_scale = 2.200000
-    building_construction = {
-        x = 2887.000000
-        y = 1603.000000
-    }
-
     factory = {
         x = 2902.600098
         y = 1599.400024
+    }
+
+    building_construction = {
+        x = 2902.900000
+        y = 1601.600000
     }
 
 }
@@ -18935,19 +18935,19 @@
 # Verdun
 413 = {
     text_position = {
-        x = 2890.899902
-        y = 1611.400024
+        x = 2892.105000
+        y = 1617.585000
     }
 
     text_scale = 2.300000
-    building_construction = {
-        x = 2886.500000
-        y = 1609.900024
-    }
-
     factory = {
         x = 2894.300049
         y = 1616.400024
+    }
+
+    building_construction = {
+        x = 2893.205000
+        y = 1614.010000
     }
 
 }
