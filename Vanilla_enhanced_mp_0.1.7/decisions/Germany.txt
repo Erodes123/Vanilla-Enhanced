@@ -650,4 +650,31 @@ claim_togo = {
 			factor = 1
 		}
 	}
+	Septemberprogramm = {
+		potential = {
+			tag = GER
+			NOT = { has_country_flag = Septemberprogramm }
+		}
+
+		allow = {
+	        money = 100000
+			owns = 397
+			owns = 413
+		OR = { 
+		BEL = { owns = 398 }
+		NET = { owns = 398 }
+		BNX = { owns = 398 } 
+		FRA = { owns = 398 }}
+		mass_politics = 1
+		}
+
+		effect = {
+			set_country_flag = Septemberprogramm
+			any_country = { limit = { owns = 398 } country_event = 118000 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
