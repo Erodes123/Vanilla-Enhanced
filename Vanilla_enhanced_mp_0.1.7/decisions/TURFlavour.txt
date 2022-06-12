@@ -204,8 +204,6 @@ political_decisions = {
 	
 		effect = {
 		    	HUN = { all_core = { add_core = KUK } }
-			HUN = { all_core = { add_core = AUS } }
-			GLO = { all_core = { add_core = AUS } }
 			GLO = { all_core = { add_core = KUK } }
 			CRO = { all_core = { add_core = KUK } }
 			KRA = { all_core = { add_core = KUK } }
