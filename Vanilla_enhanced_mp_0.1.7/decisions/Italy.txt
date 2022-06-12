@@ -648,6 +648,8 @@ political_decisions = {
 			set_country_flag = italian_conquest_of_the_mediterraneannn
 			TUN = { all_core = { add_core = ITA } }
 			TRI = { all_core = { add_core = ITA } }
+			SIR = { all_core = { add_core = ITA } }
+			LEB = { all_core = { add_core = ITA } }
 			prestige = 5
 		}
 	}
