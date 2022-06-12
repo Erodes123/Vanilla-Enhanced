@@ -160,28 +160,4 @@ political_decisions = {
 			set_country_flag = accept_minority_ser
 		}
 	}
-	
-	Accept_Serbs = {
-		potential = {
-			tag = AUS 
-				NOT = { has_country_flag = accept_minority_ser }
-				owns = 794
-				owns = 798
-			SER = { exists = no }
-			has_country_flag = austrian_balkans
-		}
-		
-		allow = {
-			nationalism_n_imperialism = 1
-			OR = { government = democracy 
-			government = hms_government }
-			ruling_party_ideology = liberal 
-			war = no 
-		}
-		
-		effect = {
-			add_accepted_culture = serb
-			set_country_flag = accept_minority_ser
-		}
-	}
 }
