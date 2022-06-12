@@ -12,6 +12,9 @@ political_decisions = {
 			OR = { AND = { 
 				war_score = 70
 				war_with = MEX }
+				AND = { 
+				MEX = { war_exhaustion = 70 }
+				war_with = MEX }
 				MEX = {
 					all_core = {
 						OR = {
@@ -22,7 +25,6 @@ political_decisions = {
 					}
 				}
 			}
-			money = 10000
 		}
 
 		effect = {
