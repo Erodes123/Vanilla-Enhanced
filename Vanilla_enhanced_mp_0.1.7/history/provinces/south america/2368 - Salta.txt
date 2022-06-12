@@ -1,5 +1,5 @@
 owner = ACO
 controller = ACO
-add_core = ACOadd_core = ACN
+add_core = ACO
 trade_goods = wool
 life_rating = 35
