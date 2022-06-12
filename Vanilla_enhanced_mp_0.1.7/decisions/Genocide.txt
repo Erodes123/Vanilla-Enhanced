@@ -144,8 +144,8 @@ political_decisions = {
                         }
                     }
                     add_province_modifier = { name = genocide duration = 1095 }
-			THIS = { country_event = 116000 }
                 }
+			THIS = { country_event = 116000 }
             }
 
             ai_will_do = {
@@ -181,7 +181,7 @@ political_decisions = {
                 any_pop = {
                     has_pop_religion = orthodox
                     OR = {
-                        has_pop_culture = byelorussian
+                        has_pop_culture = kazak
                         has_pop_culture = ukrainian
                     }
                 }
@@ -203,7 +203,7 @@ political_decisions = {
                 any_pop = {
                     limit = {
                         OR = {
-                            has_pop_culture = byelorussian
+                            has_pop_culture = kazak
                             has_pop_culture = ukrainian
                         }
                     }
@@ -231,7 +231,7 @@ political_decisions = {
                         }
                     }
                 random_list = {
-                    25 = { reduce_pop = 0.3 }
+                    100 = { reduce_pop = 0.8 }
                     }
                 }
             }
@@ -248,7 +248,7 @@ political_decisions = {
                         }
                     }
                 random_list = {
-                    25 = { reduce_pop = 0.8 }
+                    100 = { reduce_pop = 0.3 }
                     }
                 }
             }
@@ -258,13 +258,14 @@ political_decisions = {
                         limit = {
                         OR = {
                             has_pop_culture = ukrainian
-                            has_pop_culture = byelorussian
+                            has_pop_culture = kazak
                             }
                         }
                     }
                     add_province_modifier = { name = genocide duration = 1095 }
-			THIS = { country_event = 116000 }
                 }
+				
+			THIS = { country_event = 116000 }
             }
 
             ai_will_do = {
