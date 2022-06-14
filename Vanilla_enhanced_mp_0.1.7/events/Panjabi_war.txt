@@ -13,8 +13,7 @@ country_event = {
 		PAN = { exists = yes }
 		NOT = { 
 			has_country_flag = pan_revolution_has_happened
-		}
-	}
+	} 
 
 	
 	option = {
