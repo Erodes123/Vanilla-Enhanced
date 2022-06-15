@@ -1,6 +1,5 @@
 owner = AUS
 controller = AUS
-add_core = POL
 add_core = UKR
 add_core = GLO
 add_core = RUT
