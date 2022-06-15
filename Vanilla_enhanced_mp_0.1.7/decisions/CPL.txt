@@ -15,6 +15,12 @@ political_decisions = {
 
         effect = {
 		change_tag = POL
+		CPL = { all_core = { add_core = POL } }
+		KRA = { all_core = { add_core = POL } }
+		GLO = { all_core = { add_core = POL } }
+		POL = { all_core = { remove_core = CPL } }
+		    362 = { remove_core = POL }
+		    719 = { add_core = POL }
         }
     }
 
@@ -81,7 +87,7 @@ poland_will_be_completed
 		
 		effect = {
 			prestige = 20
-			badboy = -5
+			badboy = 5
 			937 = {
 				add_core = POL
 			}
