@@ -151,7 +151,20 @@ political_decisions = {
         }
 
         effect = {
-            set_country_flag = boshin_war
+            set_country_flag = boshin_war_has_happened
+			any_country = {
+				limit = {
+					OR = {
+						tag = CHO
+						tag = TOS
+						tag = SAT
+					}
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
             SHO = { country_event = 112929 } }
 
         ai_will_do = {
@@ -189,7 +202,6 @@ political_decisions = {
 						tag = SAT
  
 					}
-					in_sphere = THIS
 					NOT = {
 						tag = THIS
 					}

@@ -15,7 +15,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = mara_is_ours
-			CLM = { country_event = 112950 }			
+			any_country = { limit = { owns = 2401 } country_event = 112950 }			
 			prestige = 2
 		}
 	}
@@ -33,7 +33,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = forte_is_ours
-			VNZ = { country_event = 1129500 }			
+			any_country = { limit = { owns = 2532 } country_event = 1129500 }			
 			prestige = 2
 		}
 	}
