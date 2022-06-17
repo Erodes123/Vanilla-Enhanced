@@ -38,11 +38,9 @@ political_decisions = {
 				all_core = { 
 					OR = {
 						OR = {
+							tag = THIS
+							in_sphere = THIS
 							vassal_of = THIS
-							owned_by = THIS
-							owner = {
-								in_sphere = THIS
-							}
 						}
 					province_id = 2243
 					province_id = 2242
