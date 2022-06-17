@@ -210,19 +210,19 @@ country_event = {
 	option = {
 		name = "EVTOPT955187"
 		BEL_1977 = {
-			secede_province = CNG
+			secede_province = THIS
 		}
 		BEL_1984 = {
-			secede_province = CNG
+			secede_province = THIS
 		}
 		BEL_1987 = {
-			secede_province = CNG
+			secede_province = THIS
 		}
 		BEL_1990 = {
-			secede_province = CNG
+			secede_province = THIS
 		}
 		BEL_1992 = {
-			secede_province = CNG
+			secede_province = THIS
 		}	
 	}
 }
