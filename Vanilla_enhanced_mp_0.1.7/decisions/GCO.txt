@@ -35,15 +35,20 @@ political_decisions = {
 				}
 			}
 			VNZ = {
-				all_core = { 
+				all_core = {
 					OR = {
-						OR = {
-							tag = THIS
-							in_sphere = THIS
-							vassal_of = THIS
+						owner = {
+							war = no
+							OR = {
+								tag = THIS
+								OR = {
+										in_sphere = THIS
+									vassal_of = THIS
+								}
+							}
 						}
-					province_id = 2243
-					province_id = 2242
+						province_id = 2242
+						province_id = 2243
 					}
 				}
 			}
