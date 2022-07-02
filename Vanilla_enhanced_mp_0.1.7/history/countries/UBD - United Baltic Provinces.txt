@@ -1,6 +1,7 @@
 capital = 354
-primary_culture = latvian
+primary_culture = north_german
 culture = estonian
+culture = latvian
 religion = catholic
 government = absolute_monarchy
 plurality = 0.2

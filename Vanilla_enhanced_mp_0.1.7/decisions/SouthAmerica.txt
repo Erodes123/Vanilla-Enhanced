@@ -363,15 +363,15 @@ political_decisions = {
 			VNZ = { all_core = { add_core = PAT } }	
 			CLM = { all_core = { add_core = PAT } }	
 			ECU = { all_core = { add_core = PAT } }
-			VNZ = { all_core = { add_core = PAT } }	
-			CLM = { all_core = { add_core = PAT } }	
-			ECU = { all_core = { add_core = PAT } }
-			VNZ = { all_core = { add_core = PAT } }	
-			CLM = { all_core = { add_core = PAT } }	
-			ECU = { all_core = { add_core = PAT } }
-			VNZ = { all_core = { add_core = PAT } }	
-			CLM = { all_core = { add_core = PAT } }	
-			ECU = { all_core = { add_core = PAT } }				
+			PEU = { all_core = { add_core = PAT } }	
+			CHL = { all_core = { add_core = PAT } }	
+			BOL = { all_core = { add_core = PAT } }
+			ARG = { all_core = { add_core = PAT } }	
+			ACO = { all_core = { add_core = PAT } }	
+			ERI = { all_core = { add_core = PAT } }
+			COR = { all_core = { add_core = PAT } }	
+			URU = { all_core = { add_core = PAT } }	
+			ACN = { all_core = { add_core = PAT } }				
 			change_tag = PAT
 			add_accepted_culture = north_andinean
 			add_accepted_culture = south_andinean

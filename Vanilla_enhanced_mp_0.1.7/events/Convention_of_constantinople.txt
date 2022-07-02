@@ -12,6 +12,9 @@ country_event = {
 		release_vassal = MOL
 		release_vassal = WAL
 		release_vassal = ROM
+		any_owned = {
+			limit = {
+					owned_by = TUR }
 		TUR_810 = {
 			secede_province = BUL
 		}
@@ -57,6 +60,8 @@ country_event = {
 		TUR_788 = {
 			secede_province = BOS
 		}
+		CYP = { all_core = { secede_province = FROM
+					remove_core = TUR } }
 		TUR_674 = { remove_core = TUR } # Dobrudja
         	TUR_788 = { remove_core = TUR } # Bosnia
         	TUR_810 = { remove_core = TUR } # Bulgaria
@@ -66,9 +71,15 @@ country_event = {
         	TUR_832 = { remove_core = TUR } # Thessalia
         	847 = { remove_core = TUR } #Chania
         	848 = { remove_core = TUR } #Iraklion
-        	1096 = { remove_core = TUR } #Iraklion
+        	1096 = { remove_core = TUR } } #Iraklion
 		create_vassal = BUL
 		AUS = {
+		diplomatic_influence = {
+			who = BOS
+			value = 400
+				}
+			}
+		KUK = {
 		diplomatic_influence = {
 			who = BOS
 			value = 400
@@ -122,6 +133,18 @@ country_event = {
 			who = TUR
 			value = -200
 		}
+		add_casus_belli = {
+				target = RUS
+				type = balkan_liberation
+				months = 60
+		}
+		
+		war = {
+			target = TUR
+			attacker_goal = {
+				casus_belli = balkan_liberation
+			}
+		}
 	}
 }
 #Bulgarian Rumelia
@@ -141,6 +164,7 @@ country_event = {
 		}
 	}
 
+	fire_only_once = yes 
 	
 	option = {
 		name = "EVTOPTA103200"
@@ -172,6 +196,7 @@ country_event = {
 	major = yes
 	
 	mean_time_to_happen = { months = 1 }
+	fire_only_once = yes 
 	
 	trigger = {
 		tag = BUL
@@ -201,8 +226,8 @@ country_event = {
 #England decides the fate of the Balkans
 country_event = {
 	id = 100003
-	title = "EVTNAME100008"
-	desc = "EVTDESC100008"
+	title = "EVTNAME100003"
+	desc = "EVTDESC100003"
 	picture = "constantinople_conference"
 	
 	is_triggered_only = yes
@@ -263,7 +288,13 @@ country_event = {
 		AUS = {
 		diplomatic_influence = {
 			who = BOS
-			value = 300
+			value = 400
+				}
+			}
+		KUK = {
+		diplomatic_influence = {
+			who = BOS
+			value = 400
 				}
 			}
 		}
@@ -276,24 +307,90 @@ country_event = {
 		name = "EVTOPTB100008"
 		RUS = {
 			country_event = { id=100009 days=0 }
-		}
-		add_casus_belli = {
-				target = RUS
-				type = liberate_country
-				months = 60
-		}	
-		add_casus_belli = {
-				target = FRA
-				type = liberate_country
-				months = 60
-		}
-		add_casus_belli = {
-				target = ENG
-				type = liberate_country
-				months = 60
 		}	
 		ai_chance = {
 			factor = 0
 		}
+	}
+}
+#Russia decides the fate of the Balkans
+country_event = {
+	id = 100001
+	title = "EVTNAME100001"
+	desc = "EVTDESC100001"
+	picture = "constantinople_conference"
+	
+	fire_only_once = yes 
+	
+	trigger = { tag = RUS
+			TUR = { NOT = { is_greater_power = yes } } 
+			OR = { AND = { TUR = { in_sphere = RUS } year = 1855 }
+					year = 1878 } }		
+	option = {
+		name = "EVTOPTB100001"
+			any_country = { limit = {  rank = 1 } 
+				country_event = { id=100003 days = 5 }
+			}
+	}
+}
+country_event = {
+	id = 118001
+	title = "EVTNAME100004"
+	desc = "EVTDESC100004"
+	picture = "constantinople_conference"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA100008"
+		release_vassal = MOL
+		release_vassal = WAL
+		release_vassal = ROM
+		any_owned = {
+			limit = {
+					owned_by = TUR }
+			BUL = { all_core = { secede_province = BUL
+						remove_core = TUR } }
+			858 = { secede_province = BUL  }
+			859 = { secede_province = BUL  }
+			828 = { secede_province = BUL }
+			807 = { secede_province = BUL  }
+			806 = { secede_province = BUL  }
+			805 = { secede_province = BUL  }
+			BOS = { all_core = { secede_province = BOS
+						remove_core = TUR } }
+			SER = { all_core = { secede_province = SER
+						remove_core = TUR } }
+			BUL = { all_core = { secede_province = BUL
+						remove_core = TUR } }
+			BUL = { capital = 809 }
+
+			ALB = { all_core = { secede_province = ALB
+						remove_core = TUR } }
+			ALB = { capital = 849 }
+			MON = { all_core = { secede_province = MON
+						remove_core = TUR } }
+			GRE = { all_core = { secede_province = GRE
+						remove_core = TUR } }
+			ROM = { all_core = { secede_province = ROM 
+						remove_core = TUR } }
+			860 = { secede_province = RUS  }
+			861 = { secede_province = RUS  } }	
+		AUS = {
+		diplomatic_influence = {
+			who = BOS
+			value = 400
+				}
+			}
+		KUK = {
+		diplomatic_influence = {
+			who = BOS
+			value = 400
+				}
+			}
+		}
+
+		ai_chance = {
+			factor = 100
 	}
 }

@@ -707,6 +707,200 @@ country_event = {
 		
         ai_chance = {
             factor = 50
+    }
+}
+# The Südtirol Compromise
+country_event = {
+    id = 110089
+    title = "EVTNAME110089"
+    desc = "EVTDESC110089"
+    picture = "map_trentin"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVT110089OPTA" #There will be no compromise
+        badboy = 1
+        FROM = { country_event = 110090 }
+        ai_chance = {
+            factor = 35
+        }
+    }
+
+    option = {
+        name = "EVT110089OPTB" #We should split it equally
+        FROM = { country_event = 110091 }
+
+        ai_chance = { factor = 50 }
+    }
+
+    option = {
+        name = "EVT110089OPTC" #Let's exchange populations
+        FROM = { country_event = 110092 }
+
+        ai_chance = { factor = 15 }
+    }
+}
+
+# The South Tirol Compromise - FROMCOUTNRY Refuses
+country_event = {
+    id = 110090
+    title = "EVTNAME110090"
+    desc = "EVTDESC110090"
+    picture = "map_trentin"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVT110090OPTA" #How dare they!
+        relation = { who = FROM value = -50 }
+    }
+}
+
+# The South Tirol Compromise - splitting states
+country_event = {
+    id = 110091
+    title = "EVTNAME110091"
+    desc = "EVTDESC110091"
+    picture = "map_trentin"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVT110091OPTA" #We accept
+        random_owned = {
+            limit = {
+                province_id = 735
+                owner = { is_culture_group = italian }
+            }
+            secede_province = FROM
+            remove_core = THIS
+            remove_core = VEN
+        }
+        random_owned = {
+            limit = {
+                province_id = 734
+                owner = { is_culture_group = italian }
+            }
+            remove_core = GER
+            remove_core = AUS
+            remove_core = KUK
+            remove_core = VEN
+            change_province_name = "Trentino"
+        }
+        random_owned = {
+            limit = {
+                province_id = 734
+                owner = { is_culture_group = germanic }
+            }
+            secede_province = FROM
+            remove_core = THIS
+            remove_core = GER
+            remove_core = AUS
+            remove_core = KUK
+            change_province_name = "Trentino"
+        }
+        random_owned = {
+            limit = {
+                province_id = 735
+                owner = { is_culture_group = germanic }
+            }
+            remove_core = ITA
+            remove_core = VEN
+        }
+        relation = { who = FROM value = 100 }
+        ai_chance = {
+            factor = 30
+        }
+    }
+
+    option = {
+        name = "EVT110091OPTB" #We refuse
+        badboy = 1
+        relation = { who = FROM value = -50 }
+        FROM = { country_event = 110090 }
+        ai_chance = {
+            factor = 70
+        }
+    }
+}
+
+# The South Tirol Compromise - Population and province exchanges
+country_event = {
+    id = 110092
+    title = "EVTNAME110092"
+    desc = "EVTDESC110092"
+    picture = "map_trentin"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVT110091OPTA" #We accept
+        735 = {
+            any_pop = {
+                limit = { is_culture_group = italian }
+                move_pop = 734
+            }
+        }
+        734 = {
+            any_pop = {
+                limit = { is_culture_group = germanic }
+                move_pop = 735
+            }
+        }
+        random_owned = {
+            limit = {
+                province_id = 735
+                owner = { is_culture_group = italian }
+            }
+            secede_province = FROM
+            remove_core = THIS
+            remove_core = VEN
+        }
+        random_owned = {
+            limit = {
+                province_id = 734
+                owner = { is_culture_group = italian }
+            }
+            remove_core = GER
+            remove_core = AUS
+            remove_core = KUK
+            remove_core = VEN
+            change_province_name = "Trentino"
+        }
+        random_owned = {
+            limit = {
+                province_id = 734
+                owner = { is_culture_group = germanic }
+            }
+            secede_province = FROM
+            remove_core = THIS
+            remove_core = GER
+            remove_core = AUS
+            remove_core = KUK
+            change_province_name = "Trentino"
+        }
+        random_owned = {
+            limit = {
+                province_id = 735
+                owner = { is_culture_group = germanic }
+            }
+            remove_core = ITA
+            remove_core = VEN
+        }
+        relation = { who = FROM value = 100 }
+        ai_chance = {
+            factor = 20
+        }
+    }
+
+    option = {
+        name = "EVT110091OPTB" #We refuse
+        badboy = 1
+        relation = { who = FROM value = -50 }
+        FROM = { country_event = 110090 }
+        ai_chance = {
+            factor = 80
         }
     }
 }

@@ -9,7 +9,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = westtech
-			years_of_research = 3
+			years_of_research = 1
 		}
 	}
 	claim_tibet = {
@@ -20,7 +20,6 @@ political_decisions = {
                 tag = TPG
             }
             neighbour = TIB
-            NOT = { is_our_vassal = TIB }
             NOT = { 1587 = { is_core = CHI } }
         }
 
@@ -87,7 +86,7 @@ political_decisions = {
     picture = heavenly_seal
         potential = {
             tag CHI
-            NOT = { capital = 1612
+            NOT = { owns = 1616
 					has_country_flag = nanjing_cap }
 			
         }
@@ -117,7 +116,6 @@ political_decisions = {
 
         effect = {
             clr_global_flag = taiping_has_happened
-			years_of_research = 3
         }
         ai_will_do = { factor = 1 }
     }
@@ -135,7 +133,7 @@ political_decisions = {
 
         effect = {
             clr_global_flag = taiping_has_happened
-			years_of_research = 3
+			years_of_research = 1
         }
         ai_will_do = { factor = 1 }
     }

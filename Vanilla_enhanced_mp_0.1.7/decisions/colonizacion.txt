@@ -267,7 +267,7 @@ political_decisions = {
 	
 	Scramble_for_Africa = {
 		potential = {
-		NOT = { year = 1880 }
+		NOT = { year = 1885 }
 		THIS = { OR = { is_greater_power = yes is_secondary_power = yes } }
 			has_global_flag = berlin_conference_held
 			capital_scope = { continent = europe }

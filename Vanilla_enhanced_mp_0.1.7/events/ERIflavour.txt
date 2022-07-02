@@ -329,6 +329,9 @@ country_event = {
 
 			ERI = { all_core = { add_core = ARG
 						remove_core = ERI } }
+
+			BUE = { all_core = { add_core = ARG
+						remove_core = BUE } }
 		ARG = {
 			capital = 2348
 		}

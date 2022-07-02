@@ -51,7 +51,6 @@ political_decisions = {
 			OR = {
 			tag = JAP
 			tag = SHO}
-			owns = 1479
 			NOT = {
 				has_country_flag = japan_manchuria
 			}
@@ -97,8 +96,6 @@ political_decisions = {
 			OR = {
 			tag = JAP
 			tag = SHO}
-			
-			owns = 1455
 			NOT = {
 				has_country_flag = japan_phi
 			}
@@ -165,6 +162,7 @@ political_decisions = {
 				}
 				annex_to = THIS
 			}
+			JAP = { all_core = { add_core = SHO } }
             SHO = { country_event = 112929 } }
 
         ai_will_do = {
@@ -209,6 +207,7 @@ political_decisions = {
 				annex_to = THIS
 			}
 			change_tag_no_core_switch = JAP
+			JAP = { all_core = { add_core = SHO } }
             SHO = { country_event = 112929 } }
 
         ai_will_do = {

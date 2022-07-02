@@ -246,7 +246,7 @@ belgium_gets_its_final_form
 			badboy = 10
 			}
 		}
-	claims_on_Eupen = {
+	claims_on_Eupenbnx = {
 		picture = eupen
 		potential = {
 			tag = BNX

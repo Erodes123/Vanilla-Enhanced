@@ -426,4 +426,27 @@ political_decisions = {
 			1391 = { secede_province = THIS }
 		}
 	}
+	
+	Purcharse_of_the_gold_coast{
+		potential = {
+			tag = ENG
+			NOT = { has_country_flag = treaty_of_gold }
+			owns = 1908
+		}
+
+		allow = {
+		year = 1868
+	        money = 100000
+		NET = { owns = 1909 } 
+		}
+
+		effect = {
+			set_country_flag = treaty_of_gold
+			NET = { country_event = 11402090 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

@@ -88,6 +88,20 @@ vassal = {
 	start_date = 1815.1.1
 	end_date = 1890.11.23
 }
+# NET-SRI
+vassal = {
+	first = NET
+	second = SRI
+	start_date = 1815.1.1
+	end_date = 1890.11.23
+}
+# NET-JAV
+vassal = {
+	first = NET
+	second = JAV
+	start_date = 1815.1.1
+	end_date = 1890.11.23
+}
 
 # USA-Liberia
 vassal = {

@@ -119,8 +119,7 @@ rom_gets_its_final_form
 		effect = {
 			set_country_flag = rom_gets_its_final_form
 			RUS_969 = { 
-				add_core = ROM
-				add_core = BRO
+				add_core = THIS
 			}
 			prestige = 2
 			badboy = 2

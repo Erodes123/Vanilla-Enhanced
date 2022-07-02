@@ -2497,7 +2497,7 @@ country_event = {
 			target = SPA
 			attacker_goal = {
 				casus_belli = acquire_state
-				state_province_id = 2209
+				state_province_id = 2212
 		}
 			attacker_goal = {
 				casus_belli = acquire_state

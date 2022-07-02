@@ -157,3 +157,52 @@ country_event = {
 		}
 	}
 }
+# Event to make sure Japan is not a mess
+country_event = {
+	id = 11500100
+	title = "Event to make sure Japan is not a mess"
+	desc = "Event to make sure Japan is not a mess"
+	picture = "Celebration"
+
+	trigger = { 	tag = JAP
+			exists = JAP
+				NOT = { exists = SHO }
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA1150000"
+			SHO = { all_core = { remove_core = SHO } }
+			TOS = { all_core = { remove_core = TOS } }
+			CHO = { all_core = { remove_core = CHO } }
+			SAT = { all_core = { remove_core = SAT } }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+# Event to make sure Japan is not a mess
+country_event = {
+	id = 11500101
+	title = "Event to make sure Japan is not a mess"
+	desc = "Event to make sure Japan is not a mess"
+	picture = "Celebration"
+
+	trigger = { 	tag = SHO
+			exists = SHO
+				NOT = { exists = JAP }
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA1150000"
+			JAP = { all_core = { add_core = SHO } }
+			JAP = { all_core = { remove_core = JAP } }
+			TOS = { all_core = { remove_core = TOS } }
+			CHO = { all_core = { remove_core = CHO } }
+			SAT = { all_core = { remove_core = SAT } }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}

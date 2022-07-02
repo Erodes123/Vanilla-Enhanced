@@ -92,14 +92,14 @@ political_decisions = {
         potential = {
             tag = BRZ
             owns = 2461
-            NOT = { has_country_flag = teresina_built }
+            NOT = { has_country_flag = teresina_built2 }
         }
         allow = {
             owns = 2461
 			money = 5000
         }
         effect = {
-            set_country_flag = teresina_built
+            set_country_flag = teresina_built2
             treasury = -5000
             2461 = { change_province_name = "Florianopolis" }
         }

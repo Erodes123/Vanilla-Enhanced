@@ -161,7 +161,7 @@ political_decisions = {
 		picture = desertcol
 		potential = {
 			THIS = {
-				owns = 1804
+				owns = 1803
 				OR = { 
 				is_secondary_power = yes
 				is_greater_power = yes }
@@ -175,7 +175,7 @@ political_decisions = {
 		allow = {
 			year = 1870
 			THIS = {
-				owns = 1800
+				owns = 1803
 			}
 		}
 		

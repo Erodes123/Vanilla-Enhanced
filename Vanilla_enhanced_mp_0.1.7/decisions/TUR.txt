@@ -136,68 +136,6 @@ political_decisions = {
 			}
 		}
 	}
-	Turkish_Levant = {
-		potential = {
-			tag = TUR
-			has_global_flag = oriental_crisis
-			NOT = {
-				has_country_flag = The_Ottoman_Empire_wants_what_is_theirs
-			}
-			EGY = {
-				vassal_of = TUR
-				}
-		}
-		
-		allow = {
-				OR = {
-			is_greater_power = yes
-			is_secondary_power = yes
-			}
-		}
-		
-		effect = {
-			set_country_flag = The_Ottoman_Empire_wants_what_is_theirs			
-			EGY = {
-				country_event = { id=103101 days=0 }
-			}
-			prestige = 2
-		}
-	}
-
-	Annexation_of_Egypt  = {
-		potential = {
-			tag = TUR
-			has_global_flag = oriental_crisis
-			NOT = {
-				has_country_flag = the_ottoman_empire_annexes_egypt
-				}
-			TUR = {
-				owns = 847
-				}
-
-			EGY = {
-				vassal_of = TUR
-			}
-		}
-		
-		allow = {
-			is_greater_power = yes
-			EGY = {
-				owns = 908
-				owns = 917
-				}
-			}
-			
-		
-		effect = {			
-			EGY = {
-				country_event = { id=103102 days=0 }
-			}
-			prestige = -10
-			badboy = 10
-			set_country_flag = the_ottoman_empire_annexes_egypt
-		}
-	}
 #The Lybian desert is ours
 	The_Lybian_desert = {
 		potential = {

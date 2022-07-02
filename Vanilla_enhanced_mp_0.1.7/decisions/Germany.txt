@@ -502,7 +502,7 @@ claim_togo = {
         year = 1850
         NOT = { tag = RUS }
         NOT = { tag = TUR }
-        1914 = { empty = yes }
+        1914 = { owner = { civilized = no } }
         slavery = no_slavery
     }
 
@@ -554,11 +554,13 @@ claim_togo = {
 }
 	prussian_warsaw = {
 		potential = {
+		OR = { 
 			tag = PRU
+			tag = NGF }
+			
 			NOT = {
 				has_country_flag = prussian_warsaw
 			}
-			owns = 706
 		}
 		
 		allow = {
@@ -567,7 +569,7 @@ claim_togo = {
 		
 		effect = {
 			prestige = 2
-			badboy = 3
+			badboy = 5
 			717 = {
 				add_core = THIS
 			}
@@ -601,7 +603,6 @@ claim_togo = {
 			NOT = {
 				has_country_flag = prussian_warsaw
 			}
-			owns = 711
 		}
 		
 		allow = {
@@ -643,7 +644,7 @@ claim_togo = {
 
 		effect = {
 			set_country_flag = treaty_of_palau
-			SPA = { country_event = 114020 }
+			any_country = { limit = { owns = 2518 } country_event = 114020 }
 		}
 
 		ai_will_do = {
@@ -671,6 +672,34 @@ claim_togo = {
 		effect = {
 			set_country_flag = Septemberprogramm
 			any_country = { limit = { owns = 398 } country_event = 118000 }
+			badboy = 10
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Drang_nach_Osten = {
+		potential = {
+		OR = {
+			tag = GER
+			tag = NGF }
+		UBD = { exists = yes 
+				primary_culture = north_german }
+			NOT = { has_country_flag = Septemberprogramm2 }
+		}
+
+		allow = {
+		UBD = { exists = yes primary_culture = north_german in_sphere = THIS}
+		ideological_thought = 1
+		}
+
+		effect = {
+			set_country_flag = Septemberprogramm2
+			badboy = 15
+			inherit = UBD
+			UBD = { all_core = { add_core = THIS } }
+			LIT = { all_core = { limit = { NOT = { province_id = 938 province_id = 947 } } add_core = THIS } }
 		}
 
 		ai_will_do = {

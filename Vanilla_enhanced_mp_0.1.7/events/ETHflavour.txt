@@ -48,22 +48,46 @@ country_event = {
 	desc = "EVTDESC106000"
 	
 	trigger = {
-		
+		tag = SOK
 		year = 1870
 		NOT = {
 			year = 1871
 			has_global_flag = sok_is_united
 		}
-		owns = 1923
-		civilized = yes
+		1923 = { owner = { civilized = yes } }
 	}
 	option = {
 		name = "EVTOPTA106000"
 		set_global_flag = sok_is_united
-			1935 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 10 }
-			1933 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 10 }	
-			1934 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 10 }	
-			1930 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 10 }	
-			1936 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 10 }			
+			1935 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }
+			1933 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }	
+			1934 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }	
+			1930 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }	
+			1936 = { secede_province = SOK any_pop = { literacy = -0.99 } life_rating = 10 }			
+	}
+}
+country_event = {
+	id = 1280000
+	title = "EVTNAME106000"
+	desc = "EVTDESC106000"
+	
+	trigger = {
+		year = 1870
+		NOT = {
+			year = 1871
+			has_global_flag = sok_is_united2
+		}
+		SOK = { has_global_flag = sok_is_united }
+		owns = 1923
+	}
+	option = {
+		name = "EVTOPTA106000"
+		set_global_flag = sok_is_united2
+		clr_global_flag = sok_is_united
+			1935 = { secede_province = THIS }
+			1933 = { secede_province = THIS }	
+			1934 = { secede_province = THIS }	
+			1930 = { secede_province = THIS }	
+			1936 = { secede_province = THIS }			
 	}
 }

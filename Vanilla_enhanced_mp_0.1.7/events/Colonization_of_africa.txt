@@ -209,21 +209,61 @@ country_event = {
 
 	option = {
 		name = "EVTOPT955187"
-		BEL_1977 = {
-			secede_province = THIS
-		}
+		CNG = { country_event = 95518701 }
+			CNG = { set_country_flag = yummy }
+	}
+}
+country_event = {
+	id = 95518701
+	title = "EVTNAME955187"
+	desc = "EVTDESC955187"
+    picture = "congothingy"
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT955187"
 		BEL_1984 = {
-			secede_province = THIS
+			secede_province = CNG
 		}
 		BEL_1987 = {
-			secede_province = THIS
+			secede_province = CNG
 		}
 		BEL_1990 = {
-			secede_province = THIS
+			secede_province = CNG
 		}
 		BEL_1992 = {
-			secede_province = THIS
-		}	
+			secede_province = CNG
+		}
+		set_country_flag = yummy	
+	}
+}
+country_event = {
+	id = 95518700
+	title = "Annexation of Congo"
+	desc = "The Great Powers have allowed us to stay with all the land of the Congo"
+    picture = "congothingy"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		THIS = { OR = { is_greater_power = yes
+						is_secondary_power = yes } }
+		CNG = {
+			exists = yes
+		}
+		owns = 1982
+            	NOT = { has_global_flag = congo_is_ours }
+            	CNG = { has_country_flag = yummy }
+				CNG = { owns = 1984 }
+	}
+
+	option = {
+		name = "EVTOPT955187"
+		inherit = CNG
+			CNG = { clr_country_flag = yummy }
 	}
 }
 # We have done the worse to Congo

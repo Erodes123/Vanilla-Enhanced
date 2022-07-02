@@ -106,4 +106,25 @@ political_decisions = {
 			prestige = 5
 		}
 	}
+	#Guinea_bissau
+	Galicia = {
+		potential = {
+		tag = POR
+			NOT = {
+				has_country_flag = galicia
+			}
+		}
+		
+		allow = {
+				owns = 474
+		}
+		
+		effect = {
+			set_country_flag = galicia
+			476 = { add_core = THIS }	
+			474 = { add_core = THIS }
+			add_accepted_culture = galician
+			prestige = 5
+		}
+	}
 }

@@ -224,6 +224,45 @@ political_decisions = {
 		}
 	}
 	
+	Control_central_africa = {
+		potential = {
+			OR = { tag = ETH
+			tag = MLE }
+			NOT = {
+				has_country_flag = sahel
+			}
+		}
+		
+		allow = {
+			prestige = 5
+			owns = 1822
+		}
+		
+		effect = {
+			set_country_flag = sahel
+			any_pop = {
+				militancy = -1
+			}
+			prestige = 2
+			years_of_research = 0.02
+			ENG_1818 = {
+				secede_province = THIS
+			}
+			ENG_1818 = {
+				secede_province = THIS
+			}
+			FRA_1965 = {
+				secede_province = THIS
+			}
+			ENG_1843 = {
+				secede_province = THIS
+			}
+			ENG_1960 = {
+				secede_province = THIS
+			}
+		}
+	}
+	
 	
 	build_the_tower_of_babylon = {
 		potential = {
@@ -330,6 +369,7 @@ political_decisions = {
 			primary_culture = afro_asiatic
 			NOT = {
 				exists = TUK
+				tag = MLE
 			}
 		}
 		allow = {
