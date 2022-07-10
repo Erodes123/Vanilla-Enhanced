@@ -1,6 +1,0 @@
-owner = BOR
-controller = BOR
-add_core = BOR
-add_core = SOK
-trade_goods = cotton
-life_rating = 15

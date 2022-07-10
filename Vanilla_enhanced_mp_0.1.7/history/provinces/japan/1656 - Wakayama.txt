@@ -1,6 +1,0 @@
-owner = SHO
-controller = SHO
-add_core = SHO
-add_core = JAP
-trade_goods = tea
-life_rating = 35
