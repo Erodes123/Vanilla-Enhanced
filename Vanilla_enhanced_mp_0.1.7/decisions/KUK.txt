@@ -1,0 +1,76 @@
+#bienvenido al danubio  
+political_decisions = {
+    danube_federation = { 
+	    potential = { 
+		    tag = KUK
+			NOT = { 
+			has_country_flag = imperio_del_danubio
+		    }
+		}
+		
+		allow = { 
+			NOT = { 
+				government = fascist_dictatorship
+			}
+		    	is_greater_power = yes
+			mass_politics = 1
+			behaviorism = 1
+		}
+		
+		effect = { 
+		    set_country_flag = imperio_del_danubio
+			all_core = {
+			    add_core = DNB }
+			all_core = {
+				remove_core = KUK }
+			change_tag = DNB
+			prestige = 10
+			badboy = -5
+            		add_accepted_culture = slovak
+            		add_accepted_culture = czech
+            		add_accepted_culture = croat
+		}
+	}
+#Austrian cores back
+    Austrian_soil_back = {
+	    potential = { 
+			tag = AUS
+			has_country_flag = hungary_wants_independence
+
+		NOT = { has_country_flag = yay_austria }
+		}
+		
+		allow = { 
+			year = 1849
+			war = no
+		}
+	    
+		effect = {
+		    624 = { remove_core = HUN }
+		    624 = { add_core = AUS }
+			CRO = { all_core = { remove_core = HUN } }
+		set_country_flag = yay_austria 
+		}
+	}
+	accept_Pol_or_Ukie = {
+		potential = {
+				tag = DNB
+		}	
+		allow = {
+			war = no
+			NOT = { OR = { government = presidential_dictatorship 
+			government = bourgeois_dictatorship
+			government = fascist_dictatorship 
+			has_country_flag = accept_Pol_or_Ukie } }
+		}
+		
+		effect = {
+			prestige = 5
+			country_event = 116010
+			set_country_flag = accept_Pol_or_Ukie
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
